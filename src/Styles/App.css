@@ -1,0 +1,230 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.swiper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+img {
+  height: 500px;
+  width: 80%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: 0;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 25px;
+  height: 1.5rem;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 300px;
+  margin-top: 80px;
+}
+
+button:hover {
+  color: #141414;
+  border-color: #7c7c7c;
+  outline: 0;
+}
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid #575757;
+}
+
+h3,
+h2 {
+  font-size: 3.0rem;
+  line-height: 1.3;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 150px;
+}
+
+.about {
+  margin-top: 230px;
+  height: auto;
+}
+
+.about div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.about div div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-service {
+  height: 240px;
+  width: 290px;
+}
+
+.projects {
+  margin-top: 100px;
+  height: auto;
+}
+
+.buy {
+  margin-top: 250px;
+  height: auto;
+}
+
+.buy h2 {
+  text-shadow: 5px 2px 7px rgba(0, 0, 0, 0.59);
+}
+
+.pricing-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing-list li {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 16px 17px 35px 12px rgba(0, 0, 0, 0.52);
+  -webkit-box-shadow: 16px 17px 35px 12px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 16px 17px 35px 12px rgba(0, 0, 0, 0.52);
+}
+
+.pricing-list li h3 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.pricing-list li p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pricing-list li p.price {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.social a {
+  color: rgb(0, 0, 0);
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.social a:hover {
+  scale: 1.1;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.social div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}

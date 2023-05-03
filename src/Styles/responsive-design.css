@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+
+  h3,
+  h2 {
+    font-size: 2.0rem;
+  }
+
+  .about {
+    margin-top: 80px;
+  }
+
+  .about div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .img-service {
+    height: 180px;
+    width: 220px;
+  }
+
+  .social a {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .projects img {
+    max-width: 100%;
+    height: auto;
+    max-height: max-content;
+    width: auto;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .Contact-text {
+    font-size: 21px;
+  }
+
+  nav a {
+    margin: 10px;
+  }
+}
